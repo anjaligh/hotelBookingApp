@@ -137,7 +137,28 @@ p{
     color:#5a5a5a ;
     font-family: 'Poppins';
 }
-img{
+/* img{
     padding-left: 50%;
     size: 400px;
+} */
+.user{
+  width: 104px;
+    margin-left: 0px;
+    margin-top: 20px;
+    padding-right: 30px;
+}
+.wraptext{
+  word-break: keep-all;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+align-items: center;
+
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.3px;
+
+color: #000000;
 }
