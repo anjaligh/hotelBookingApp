@@ -81,6 +81,7 @@ input{
     border-radius: 8px;
     border: 1px solid #5a5a5a;
     display: flex;
+    padding-left: 40px;
 }
 #profile{
     Width:484px;
@@ -91,6 +92,7 @@ input{
     display: flex;
     background-color: white;
     font-family: 'Poppins';
+    padding-left: 40px;
 }
 #add{
     Width:484px;
