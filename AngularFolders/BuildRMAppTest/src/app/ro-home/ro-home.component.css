@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 700;
+    src: local('Montserrat-Bold'), url(http://fonts.gstatic.com/s/montserrat/v6/IQHow_FEYlDC4Gzy_m8fcvEr6Hm6RMS0v1dtXsGir4g.ttf) format('truetype');
+  }
+.left{
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1586511934875-5c5411eebf79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80');
+    background-size: cover;
+    background-position: center;
+}
+.right{
+    padding-left: 100px;
+    padding-top: 150px;
+}
+input{
+    Width:80%;
+    Height:50px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #5a5a5a79;
+    padding-left: 40px;
+}
+#btnLogin{
+    Width:80%;
+    Height:50px;
+    border: 1px solid #F90716;
+    background: #F90716;
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    font-weight:900;
+    font-size: 20px;
+    vertical-align: center;
+    letter-spacing: -0.3px;
+    color: #FFFFFF; 
+}
+h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 62px;
+    color: #000000;
+}
+h4
+label{
+    
+    font-family: 'Poppins';
+    /* font-style: normal; */
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000
+}
+::placeholder {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;
+    color: #5A5A5A;
+    padding-left: 10px;
+}
+p{
+    padding-top: 6px;
+  }
+.logo{
+      width: 74px;
+      margin-left: 80px;
+      margin-top: 40px;
+  }
+.connect p{
+    margin-left: 20%;
+    color:#5a5a5a ;
+    font-family: 'Montserrat';
+}
+.right-inner a{
+    text-decoration: none;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+display: flex;
+margin-left: 54%;
+color: #000000;
+
+
+}

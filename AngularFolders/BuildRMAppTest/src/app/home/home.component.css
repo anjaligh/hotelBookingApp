@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+.container1{
+    width: 100%;
+    height:100%;
+    font-family: 'Montserrat';
+}
+.container-gradient{
+  position: absolute;
+  top: 0px;
+  width: 40vw;
+  height:100%;
+  background: linear-gradient(to right, black, rgba(0, 0, 0, 0));
+  z-index: 1;
+}
+.container-gradient1{
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height:30vw;
+  background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0));
+  z-index: 1;
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 200;
+  src: local('Montserrat-Regular'), url(http://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYC3USBnSvpkopQaUR-2r7iU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: bold;
+  font-weight: 700;
+  src: local('Montserrat-Bold'), url(http://fonts.gstatic.com/s/montserrat/v6/IQHow_FEYlDC4Gzy_m8fcvEr6Hm6RMS0v1dtXsGir4g.ttf) format('truetype');
+}
+.navbar{
+  position: relative;
+}
+.navbar-brand{
+  padding-right: 210px;
+}
+.nav-item{
+  position: relative;
+  float: right;
+  color: white;
+  padding-right: 50px;
+}
+.nav-item .active{
+  font-weight: bold;
+  border-bottom: 3px solid white;
+}
+.btn{
+  width: 100px;
+  height: 30px;
+  border: 2px solid white;
+  border-radius: 32px;
+  text-align: center;
+  padding-top: 2px;
+  font-weight: bold;
+}
+h1{
+  font-family: 'Montserrat';
+  font-size: 64px;
+  font-weight: 700;
+  color: white;
+}
+h2{
+  font-family: 'Montserrat';
+  color: white;
+  font-size: 36px;
+  font-weight: 400;
+  padding-bottom: 0px;
+}
+.caption{
+  position: absolute;
+  margin-top: 211px;
+  bottom: 150px;
+  padding-left: 9%;
+  z-index: 5;
+}
+.carousel-item img{
+  width: 100vw;
+  height: 100vh;
+}
+.my-nav{
+  position: absolute;
+  top: 0px;
+  padding-left: 9%;
+  padding-right: 9%;
+  width: 100%;
+  height:150px;
+  z-index: 5;
+  /* background: linear-gradient(to bottom, #000000,#00000000);; */
+}
+.carousel-indicators {
+  padding-bottom: 100px;
+}
+.startbtn{
+  width: 210px;
+  height: 60px;
+  border-radius: 50px;
+  background-color:#F90716 ;
+  border-color: #F90716;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  margin-left: 43%;
+}

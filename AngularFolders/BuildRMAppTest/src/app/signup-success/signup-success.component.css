@@ -1,0 +1,105 @@
+/* @import "~bootstrap/dist/css/bootstrap.min.css"; */
+.container1{
+    width: 100vw;
+    height:100vh;
+    font-family: 'Montserrat';
+    /* height: 720px; */
+    background-image: url('/assets/success1.jpg') ;
+    background-position: top right;
+    background-size: cover;
+    /* background: linear-gradient(to bottom, #000000, #00000000) ; */
+}
+.container-gradient{
+  position: absolute;
+  top: 0px;
+  width: 70vw;
+  height:100%;
+  background: linear-gradient(to right, black, rgba(0, 0, 0, 0));
+}
+.my-nav{
+  padding-left: 4%;
+  padding-top: 2%;
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+  src: local('Montserrat-Regular'), url(http://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYC3USBnSvpkopQaUR-2r7iU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: bold;
+  font-weight: 700;
+  src: local('Montserrat-Bold'), url(http://fonts.gstatic.com/s/montserrat/v6/IQHow_FEYlDC4Gzy_m8fcvEr6Hm6RMS0v1dtXsGir4g.ttf) format('truetype');
+}
+
+
+
+h2{
+  font-size: 36px;
+  font-weight: bolder;
+  color: white;
+}
+h4{
+  color: white;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+.caption{
+  font-family: 'Montserrat';
+  font-weight: 700;
+  position: absolute;
+  margin-top: 211px;
+  bottom: 200px;
+  padding-left: 9%;
+  
+}
+
+
+.continuebtn{
+  width: 220px;
+  height: 60px;
+  border-radius: 8px;
+  background-color:#F90716 ;
+  border-color: #F90716;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+}
+a {
+  display: inline-block;
+  border-radius: 50%;
+  text-decoration:none;
+  /* display: inline-block; */
+  text-align: center;
+
+}
+
+
+.left {
+  display: inline-block;
+  width: 74px;
+  height: 74px;
+  border: 1px solid linear-gradient(to right, #F90716,#45313236);
+  border-radius: 50%;
+  margin-right: 1.5em;
+  background: linear-gradient(to right, #F90716,#45313236);
+}
+
+.left:after {
+  content: '';
+	display: inline-block;
+  margin-top: 1.05em;
+  margin-left: 0.6em;
+  width: 1.4em;
+  height: 1.4em;
+  border-top: 0.5em solid #ffffff;
+  border-right: 0.5em solid #ffffff;
+  -moz-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
